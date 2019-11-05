@@ -1,6 +1,6 @@
 ### Hard Space Replacer Script
 
-Script replaces the non-breaking space with whitespace after each `n`-letters-length word in a text fetched from file. Script outputs the processed text to a new file.
+Script replaces whitespace with the non-breaking space after each `n`-letters-length word in a text fetched from file. Script outputs the processed text to a new file.
 
 Make the script file executable:
 
@@ -17,6 +17,6 @@ Pattern:
 
 param1 - input file path
 param2 - output file path (no need to create one manually)
-param3 - number, length of the word after which the non-breaking space is replaced
+param3 - number, length of the word after which the whitespace is replaced
 
 ```

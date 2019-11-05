@@ -12,7 +12,7 @@ for WORD in $INPUT_TEXT_PROCESSING_ARRAY; do
 
 	if [ ${#WORD} -le "$WORD_LENGTH" ]; then
 
-		INPUT_TEXT_PROCESSING=$(echo "$INPUT_TEXT_PROCESSING" | perl -pe "s/\x20$WORD\xC2\xA0/ $WORD /g")		
+		INPUT_TEXT_PROCESSING=$(echo "$INPUT_TEXT_PROCESSING" | perl -pe "s/$WORD\x20/$WORD\xC2\xA0/g")		
 	fi
    
 done
