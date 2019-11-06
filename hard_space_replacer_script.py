@@ -46,4 +46,4 @@ while inputfilenumber <= len(sys.argv) - 1:
     infile.close()
     inputfilenumber+=1
 
-print('\n@@ Processing files finished successfully! Enjoy your day!\n')
+print('\n@@ Processing of ' + str(inputfilenumber - 2) + ' files finished successfully! Enjoy your day!\n')
