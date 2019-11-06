@@ -42,3 +42,5 @@ while inputfilenumber <= len(sys.argv) - 1:
    	           outfile.write(line)
 
     inputfilenumber+=1
+
+print('\n@@ Processing files finished successfully! Enjoy your day!\n')
