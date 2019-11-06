@@ -8,13 +8,15 @@ Make the script file executable:
 
 Usage example:
 
-`python3 hard_space_replacer_script.py 2 \
+```
+python3 hard_space_replacer_script.py 2 \
 	/path/input_text_1.txt \
 	/path/input_text_2.txt \
 	/path/input_text_3.txt \
 	/path/input_text_4.txt \
 	/path/input_text_5.txt \
-	/path/input_text_6.txt`
+	/path/input_text_6.txt
+```
 
 Pattern:
 
