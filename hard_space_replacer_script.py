@@ -41,6 +41,9 @@ while inputfilenumber <= len(sys.argv) - 1:
    	       	processingdatetime + str(inputfileextension), 'a') as outfile:
    	           outfile.write(line)
 
+
+    outfile.close()
+    infile.close()
     inputfilenumber+=1
 
 print('\n@@ Processing files finished successfully! Enjoy your day!\n')
